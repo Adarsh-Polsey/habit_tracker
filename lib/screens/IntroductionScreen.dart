@@ -1,9 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 import 'package:habit_tracker/screens/screens.dart';
 
 class IntroductionScreen extends StatefulWidget {
@@ -34,7 +31,6 @@ class _IntroductionScreenState extends State<IntroductionScreen> {
   }
 
   Widget introNav() {
-    print(active);
     if (active < 3) {
       return Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
